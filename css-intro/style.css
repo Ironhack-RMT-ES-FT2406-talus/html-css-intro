@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+SK:wght@100..400&display=swap');
+
+/* h1 {
+  color: rgba(3, 136, 3, 0.577);
+  background-color: rgb(185, 66, 245);
+} */
+
+/* section {
+  background-color: brown;
+} */
+
+
+#students {
+  background-color: lightblue;
+
+}
+
+#places {
+  background-color: lightgreen;
+}
+
+#hobbies {
+  background-color: lightcoral;
+}
+
+.main-sections {
+  color: rgb(80, 80, 80);
+  font-size: large;
+}
+
+.title {
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  /* font-family: Arial; */
+  /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif */
+  font-family: "Playwrite SK", cursive;
+  text-shadow: 2px 2px 10px brown;
+}
+
+#students li {
+  /* busca todos los li dentro de la sección con id students */
+  color: blue
+}
+
+#places li {
+  color: green
+}
+
+#hobbies li {
+  color: rgb(89, 0, 0)
+}
+
+/* Modelo de caja */
+
+.main-sections {
+
+  /* en una página web, escribimos estos estilos en el #students que tenemos arriba */
+
+  /* border-style: solid;
+  border-width: 4px;
+  border-color: brown; */
+
+  /* podemos escribir css de forma simplificada */
+  /* en este caso especifico, puede ser cualquier orden */
+  border: solid 20px brown;
+
+  /* padding-top: 40px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 25px; */
+
+  padding: 40px 25px 10px 15px;
+
+  margin: 20px
+
+}
+
+.main-sections li {
+  list-style-type: circle
+}
+
+body {
+  background-image: url("./bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+
+
